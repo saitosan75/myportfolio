@@ -1,0 +1,47 @@
+/* CSS TABLE OF CONTENTS 
+
+    #TYPOGRAPHY
+        #BODY
+
+
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%; /* 14px */
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 1000px;
+}
+
+a {
+    color: rgba(255, 157, 92, 0.7);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 157, 92);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.site-header,
+.site-navigation {
+    text-align: center;
+}
+
+.site-navigation ul {
+    padding: 0;
+}
+
+.site-navigation ul li {
+    display: inline-block;
+}
+
+.site-navigation ul li a{
+    display: block;
+    padding: 1em;
+}
